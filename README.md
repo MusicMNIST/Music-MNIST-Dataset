@@ -4,8 +4,8 @@ A simple audio-visual dataset consiting of sheet music images of single notes an
 
 ### Current status
 + 88 sheet music images
-+ 1,948 training audio files
-+ 516 testing audio files
++ 2088 training audio files
++ 552 testing audio files
 
 ### Dimensions
 + The sheet music images are 162x300 (HeightxWidth)
