@@ -9,7 +9,7 @@ A simple audio-visual dataset consiting of sheet music images of single notes an
 
 ### Dimensions
 + The sheet music images are 162x300 (HeightxWidth)
-+ In the Mel spectrogram representation of our audio files there are 764 frames
++ In the Mel spectrogram representation of most of our audio files there are 764 frames. There is some variance in which some are 765 frames. We just used slicing in the getItem method of the Dataset class to combat this ([:, :, :764]).
 
 ### Naming convention
 {note name}_ {instrument}_ {augmentation}(if applicable)
